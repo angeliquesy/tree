@@ -1,0 +1,22 @@
+.button {
+	border-radius: 4px;
+	padding: 6px 16px;
+	height: 40px;
+	text-transform: uppercase;
+	border: 1px solid #3f51b5;
+	transition: opacity 0.2s ease;
+
+	&--primary {
+		background-color: #3f51b5;
+		color: #ffffff;
+	}
+
+	&--secondary {
+		background-color: #ffffff;
+		color: #3f51b5;
+	}
+
+	&:hover {
+		opacity: 0.7;
+	}
+}

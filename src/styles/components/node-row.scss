@@ -1,0 +1,28 @@
+.node-row {
+	align-items: cent;
+	display: flex;
+	min-height: 24px;
+	line-height: 24px;
+
+	&--selected {
+		background-color: #eeeff8;
+	}
+
+	&__chevron {
+		display: inline-flex;
+		transition: transform 0.3s ease;
+
+		svg {
+			width: 24px;
+			height: 24px;
+		}
+
+		&--expanded {
+			transform: rotate(90deg);
+		}
+	}
+
+	&__toolbar {
+		margin-left: 6px;
+	}
+}
